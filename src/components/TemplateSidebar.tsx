@@ -24,7 +24,7 @@ function DraggableTemplateCard({ template }: { template: TemplateDefinition }) {
       {...attributes}
       onDoubleClick={handleClick}
       className={`cursor-grab rounded-lg border border-slate-200 bg-white p-3 shadow-sm transition active:cursor-grabbing dark:border-slate-600 dark:bg-slate-800 ${
-        isDragging ? 'opacity-60' : 'hover:border-slate-300 hover:shadow dark:hover:border-slate-500'
+        isDragging ? 'opacity-25' : 'hover:border-slate-300 hover:shadow dark:hover:border-slate-500'
       }`}
     >
       <div className="font-medium text-slate-800 dark:text-slate-100">

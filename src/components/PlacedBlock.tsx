@@ -24,7 +24,7 @@ export function PlacedBlock({
 
   return (
     <div
-      className="absolute rounded border-2 border-amber-400/80 bg-amber-50/90 shadow-sm dark:border-amber-500/80 dark:bg-amber-950/50"
+      className="absolute rounded border-2 border-amber-400/30 bg-amber-50/20 shadow-sm dark:border-amber-500/30 dark:bg-amber-950/20"
       style={{
         left,
         top,
